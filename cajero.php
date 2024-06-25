@@ -13,7 +13,7 @@ function cajero_automatico(){
 
         $usuario=intval(readline("ingrese una opción: \n"));
         if ($usuario==1){
-            echo "su saldo es de , $saldo \n"; 
+            echo "su saldo es de , $saldo \n";
 
         }elseif ($usuario==2){
             $retirar=intval(readline("ingrese el valor que desea retirar: "));
@@ -36,22 +36,9 @@ function cajero_automatico(){
 }
 cajero_automatico();
 
-        
 
 
-        
 
-
-   
-    
-    
-          
-    
-
-   
-
-    
-   
 
 
 
